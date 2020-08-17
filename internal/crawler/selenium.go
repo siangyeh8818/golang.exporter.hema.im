@@ -107,7 +107,7 @@ func RunSelium() string {
 		fmt.Println("get page faild", err.Error())
 		//return
 	}
-	webelement4, _ := w_b1.FindElement(selenium.ByXPATH, "/html/body/section/div/div[1]/div/div[3]/div/div[4]/div[2]/span")
+	webelement4, _ := w_b1.FindElement(selenium.ByXPATH, "/html/body/section/div/div[1]/div/div[3]/div/div[5]/div[2]/span")
 	remaining_device, _ := webelement4.Text()
 	log.Println("-------remaining_device----------")
 	log.Println(remaining_device)
